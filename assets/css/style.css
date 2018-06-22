@@ -119,6 +119,19 @@ p {
     margin-bottom: -25px;
   }
 
+.image h3 {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
 
   /* html {
     box-sizing: border-box;
@@ -137,6 +150,7 @@ footer {
     border-top: 6px solid #4aaaa5;
 }
 
+
 /* Contact form  */
 
 /* Style inputs with type="text", select elements and textareas */
@@ -151,3 +165,34 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+.centered {
+    position:absolute; 
+    bottom:0; 
+    font-size:24px; 
+    font-family:"vedana"; 
+    background:rgba(251,251,251,0.5);
+    padding:10px 20px; 
+    text-align:center;
+    }
+
+/* Media Queries */
+
+ /* Small devices (portrait tablets and large phones, 640px and down) */
+ @media only screen and (max-width: 640px) {
+    .top-bar h1.name {
+        position: relative;
+        text-align: center;
+        
+    }
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and down) */
+ @media only screen and (max-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 980px and down) */
+ @media only screen and (max-width: 980px) {
+
+ }
