@@ -9,7 +9,7 @@ body {
 /* THE NAVIGATION BAR */
 .top-bar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #FFFFFF;
     position: fixed; 
     top: 0; /* Positions the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -21,7 +21,7 @@ body {
 .top-bar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,7 +64,7 @@ body {
 header {
     display: flex;
     height: 77px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 nav {
@@ -164,16 +164,6 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
-.centered {
-    position:absolute; 
-    bottom:0; 
-    font-size:24px; 
-    font-family:"vedana"; 
-    background:rgba(251,251,251,0.5);
-    padding:10px 20px; 
-    text-align:center;
-    }
 
 /* Media Queries */
 
