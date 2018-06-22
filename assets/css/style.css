@@ -180,6 +180,14 @@ input[type=text], select, textarea {
          clear: both;
      }
 
+     .name {
+         /* positions the name to the left to save space */
+         float: left;
+         clear: both;
+     }
+
+
+
      .container 
      {
          /* Makes the container two thirds of the grid */
